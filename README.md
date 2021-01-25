@@ -5,7 +5,7 @@ Um clone da página Netflix. O objetivo deste projeto é desenvolver conheciment
 Um layout similar a paginas do acervo da Netflix. 
 inclui:
  - Um menu com:
-  - Generos de filmes a escolher
+  -- Generos de filmes a escolher
  - Um filme em destaque (estático) 
  - Um carrossel com opções de filmes
  
