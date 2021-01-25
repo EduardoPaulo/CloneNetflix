@@ -1,0 +1,108 @@
+:root{
+    --vermelho: #E50914;
+    --preto:    #141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    /*Border-Borx: Não ultrapassa as bordas da box*/
+    box-sizing: border-box; 
+}
+
+/* Elementos Base */
+body{
+    background-color: var(--preto);
+    font-family: Arial;
+    color: #fff
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:rgb(191, 190, 190);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:rgb(244, 235, 235)
+}
+
+/* Filme principal */
+.filmePrincipal{
+    font-size:  16px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../IMG/houseOfCards-capa.jpg');
+    background-size: cover;
+    height:     400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filmePrincipal .descricao{
+    margin-bottom: 30px;
+}
+
+.filmePrincipal .titulo{
+    font-size: 40px; 
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 10%;
+}
+
+.btn{
+    padding:15px;
+    background-color:rgba(0,0,0,0.5);
+    border: none;
+    color:white;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: .7s ease all;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(0,0,0);
+}
+
+.btn i{
+    margin-right: 5px;
+}
+
+.btnPlayNow::after{
+    content: "ASSISTIR AGORA";
+}
+
+.btnInfo::after{
+    content:"MAIS INFORMAÇÕES"
+}
+
+.container{
+    margin-left: 10px;
+}
+
+.filmePrincipal .container{
+    width:70%;
+}
+
+.boxFilme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carroselFilmes{
+    margin-top: 5px;
+}
