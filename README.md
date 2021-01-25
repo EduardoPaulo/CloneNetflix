@@ -1,5 +1,5 @@
 # CloneNetflix
-Um clone da página Netflix. O objetivo deste projeto é estudar tecnologias de front end para desenvolver conhecimentos e habilidades relacionadas.
+Um clone da página Netflix. O objetivo deste projeto é desenvolver conhecimentos e habilidades relacionadas a tecnicas e tecnologias front-end.
 
 #Versão 1
 Um layout similar a paginas do acervo da Netflix. 
